@@ -3,6 +3,8 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Laptop Issues](#laptop-issues)
+2. [Pathplanner Issues](#pathplanner-issues)
+3. [Can & Canivore Issues](#can-&-canivore-issues)
 
 
 ## Laptop Issues
@@ -24,4 +26,3 @@ Spacebar can get jammed down
 ### Canivore can chain is broken
 1. Click the 
 
-## Example
