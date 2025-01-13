@@ -3,7 +3,7 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Laptop Issues](#laptop-issues)
-    1. [Randomly E-Stopping](#1.0-randomly-e-stopping)
+    1. [1.0 Randomly E-Stopping](#1.0-randomly-e-stopping)
     2. 
 3. [Pathplanner Issues](#pathplanner-issues)
     1. 
