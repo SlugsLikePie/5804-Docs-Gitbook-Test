@@ -4,7 +4,7 @@ Documentation for troubleshooting issues with FRC robots
 ## Table of Contents
 1. [Laptop Issues](#laptop-issues)
 2. [Pathplanner Issues](#pathplanner-issues)
-3. [Can & Canivore Issues](#can-&-canivore-issues)
+3. [Can & Canivore Issues](#can-and-canivore-issues)
 
 
 ## Laptop Issues
@@ -19,7 +19,7 @@ Spacebar can get jammed down
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-## Can & Canivore Issues
+## Can and Canivore Issues
 ### Cannot find how to update the Canivore firmware
 1. Click the menu button in the top left of Phoenix tuner
 2. Click into the Canivores tab
