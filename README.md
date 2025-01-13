@@ -3,12 +3,13 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Laptop Issues](#laptop-issues)
-2. [Pathplanner Issues](#pathplanner-issues)
-3. [Can & Canivore Issues](#can-and-canivore-issues)
+  1. tomato
+3. [Pathplanner Issues](#pathplanner-issues)
+4. [Can & Canivore Issues](#can-and-canivore-issues)
 
 
 ## Laptop Issues
-### 1.0 Randomly E-Stopping
+### Randomly E-Stopping
 Spacebar can get jammed down
 1. Press spacebar repeatedly to unstick it
 2. Redeploy code/power cycle to restart the robot
