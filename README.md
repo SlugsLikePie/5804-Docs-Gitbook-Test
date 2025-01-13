@@ -13,7 +13,7 @@ Spacebar can get jammed down
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-Can & Canivore Issues
+## Can & Canivore Issues
 ### Cannot find how to update the Canivore firmware
 1. Click the menu button in the top left of Phoenix tuner
 2. Click into the Canivores tab
