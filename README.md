@@ -4,6 +4,7 @@ Documentation for troubleshooting issues with FRC robots
 ## Table of Contents
 1. [Laptop Issues](#laptop-issues)
   1. tomato
+  2. basil sandwich
 3. [Pathplanner Issues](#pathplanner-issues)
 4. [Can & Canivore Issues](#can-and-canivore-issues)
 
