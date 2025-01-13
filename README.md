@@ -1,8 +1,8 @@
 # 5804-Troubleshooting-Docs
 Documentation for troubleshooting issues with FRC robots
 
-[Laptop Issues] (#laptop-issues)
-1. [Example](#example)
+## Table of Contents
+1. [Laptop Issues](#laptop-issues)
 
 
 ## Laptop Issues
