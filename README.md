@@ -6,7 +6,7 @@ Documentation for troubleshooting issues with FRC robots
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
     2. 
 3. [Pathplanner Issues](#pathplanner-issues)
-    1. [Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
+    1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
     2. 
 5. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
