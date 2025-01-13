@@ -1,7 +1,7 @@
 # 5804-Troubleshooting-Docs
 Documentation for troubleshooting issues with FRC robots
 
-[Laptop Issues] (#laptop issues)
+[Laptop Issues] (#1.0)
 
 
 ## Laptop Issues
