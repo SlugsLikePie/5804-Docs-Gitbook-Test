@@ -2,6 +2,7 @@
 Documentation for troubleshooting issues with FRC robots
 
 [Laptop Issues] (#laptop-issues)
+1. [Example](#example)
 
 
 ## Laptop Issues
@@ -23,3 +24,4 @@ Spacebar can get jammed down
 ### Canivore can chain is broken
 1. Click the 
 
+## Example
