@@ -1,8 +1,11 @@
 # 5804-Troubleshooting-Docs
 Documentation for troubleshooting issues with FRC robots
 
+[Laptop Issues] (#ONION)
+
+
 ## Laptop Issues
-### Randomly E-Stopping
+### 1.0 Randomly E-Stopping
 Spacebar can get jammed down
 1. Press spacebar repeatedly to unstick it
 2. Redeploy code/power cycle to restart the robot
