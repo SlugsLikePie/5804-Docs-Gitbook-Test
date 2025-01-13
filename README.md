@@ -8,7 +8,7 @@ Documentation for troubleshooting issues with FRC robots
 3. [Pathplanner Issues](#pathplanner-issues)
     1. [Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
     2. 
-5. [Can & Canivore Issues](#can-and-canivore-issues)
+5. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
 
 
@@ -24,10 +24,10 @@ Spacebar can get jammed down
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-## Can and Canivore Issues
+## CAN and Canivore Issues
 ### 1.0 Don't know how to update Canivore firmware
 1. Click the menu button in the top left of Phoenix tuner
 2. Click into the Canivores tab
-### Canivore can chain is broken
-1. Click the 
+3. Update the Canivore
 
+## Motor Issues
