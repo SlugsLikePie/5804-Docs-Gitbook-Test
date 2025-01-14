@@ -31,3 +31,9 @@ Spacebar can get jammed down
 3. Update the Canivore
 
 ## Motor Issues
+### 1.0 Motors will not spin
+1. Check stator current limit in Phoenix tuner
+2. Change it to 120 amps if it is really small (~0.1)
+3. Test to see if the motor spins now using Phoenix tuner
+4. Redeploy code and check in Phoenix tuner if the motor's stator current limit has been set back to a small value
+5. If the value has been reset, find the line of code that is applying that value as a constant and change it to 120 amps (or whatever current limit it should be)
