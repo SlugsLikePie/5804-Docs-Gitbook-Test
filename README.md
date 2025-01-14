@@ -1,4 +1,4 @@
-# 5804-Troubleshooting-Docs
+# 5804-Docs
 Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
