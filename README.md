@@ -22,6 +22,11 @@ Spacebar can get jammed down
 1. Press spacebar repeatedly to unstick it
 2. Redeploy code/power cycle to restart the robot
 
+### 2.0 Phoenix Tuner X cannot communicate with devices
+1. Click the menu button in the top left of Phoenix tuner
+2. Select driver station
+3. If devices are still not detected, return to the devices section and run temporary diagnostics
+
 ## Pathplanner Issues
 ### 1.0 Bootlooping and Pathplanner Cannot Find Settings File
 1. Open the Pathplanner app
