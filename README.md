@@ -5,15 +5,17 @@ Documentation for troubleshooting issues with FRC robots
 1. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
     2. 
-3. [Pathplanner Issues](#pathplanner-issues)
+2. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
     2. 
-5. [CAN & Canivore Issues](#can-and-canivore-issues)
+3. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
-2. [Rio Logging](#rio-logging)
+4. [Rio Logging](#rio-logging)
     1. [1.0 Want to view Rio connection and power logs](#10-view-rio-connection-and-power-logs)
-2. [Swerve Drive](#swerve-drive)
+5. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
+6. [Vision](#vision)
+    1. [1.0 Camera Setup Issues](#10-camera-setup-issues)
 
 
 ## Laptop Issues
@@ -55,5 +57,12 @@ Spacebar can get jammed down
 ## Swerve Drive
 ### 1.0 Swerve randomly not setting zeroes correctly on robot startup
 1. Call swerve.resetModuleToAbsolute() (or equivalent method) twice at the top of RobotContainer
+
+## Vision
+### 1.0 Camera setup
+1. Set the static IP in the networking tab of Photonvision
+2. THEN Set the static IP for the RoboRIO
+3. Power cycle the robot
+4. Access the camera configuration settings at the new static IP
 
 
