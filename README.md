@@ -7,16 +7,16 @@ Documentation for troubleshooting issues with FRC robots
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
 4. [Pathplanner Issues](#pathplanner-issues)
-    1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
+    1. [1.0 Bootlooping and Pathplanner cannot find settings sile](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
 5. [CAN & CANivore Issues](#can-and-canivore-issues)
-    1. [1.0 Don't know how to update CANivore firmware](#10-dont-know-how-to-update-canivore-firmware)
+    1. [1.0 Update CANivore firmware](#10-update-canivore-firmware)
 6. [Rio Logging](#roborio)
-    1. [1.0 Flashing roboRIO 2.0](#10-flashing-roborio-20)
-    2. [1.0 Want to view Rio connection and power logs](#10-view-roborio-connection-and-power-logs)
+    1. [1.0 Flashing roboRIO 2.0 firmware](#10-flashing-roborio-20-firmware)
+    2. [1.0 View RIO connection and power logs](#10-view-roborio-connection-and-power-logs)
 7. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 8. [Vision](#vision)
-    1. [1.0 Camera Setup](#10-camera-setup)
+    1. [1.0 Coprocessor networking configuration](#10-coprocessor-networking-configuration-for-photonvision)
 
 ## Hardware Info
 ### 1.0 Common Cables
@@ -50,13 +50,13 @@ Spacebar can get jammed down
 3. If devices are still not detected, return to the devices section and run temporary diagnostics
 
 ## Pathplanner Issues
-### 1.0 Bootlooping and Pathplanner Cannot Find Settings File
+### 1.0 Bootlooping and Pathplanner cannot find settings file
 1. Open the Pathplanner app
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-## CAN and CANivore Issues
-### 1.0 Don't know how to update CANivore firmware
+## CAN and CANIvore Issues
+### 1.0 Update CANivore firmware
 1. Click the menu button in the top left of Phoenix tuner
 2. Click into the CANivores tab
 3. Update the CANivore
@@ -70,7 +70,7 @@ Spacebar can get jammed down
 5. If the value has been reset, find the line of code that is applying that value as a constant and change it to 120 amps (or whatever current limit it should be)
 
 ## roboRIO
-### 1.0 Flashing [roboRIO 2.0](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html)
+### 1.0 Flashing [roboRIO 2.0](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html) firmware
 1. Find either a USB-A to MicroSD adapter or a SD to MicroSD adapter
 2. Take the MicroSD Card from the roboRIO
 3. 
