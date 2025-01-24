@@ -8,10 +8,8 @@ Documentation for troubleshooting issues with FRC robots
         2. [1.1 USB Type-C](#11-usb-type-c)
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
-    2. 
 4. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
-    2. 
 5. [CAN & CANivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update CANivore firmware](#10-dont-know-how-to-update-canivore-firmware)
 6. [Rio Logging](#roborio)
