@@ -11,7 +11,8 @@ Documentation for troubleshooting issues with FRC robots
 3. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
 4. [Rio Logging](#rio-logging)
-    1. [1.0 Want to view Rio connection and power logs](#10-view-rio-connection-and-power-logs)
+    1. [1.0 Flashing roboRIO 2.0](#10-flashing-roborio-20)
+    2. [1.0 Want to view Rio connection and power logs](#10-view-rio-connection-and-power-logs)
 5. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 6. [Vision](#vision)
@@ -49,8 +50,9 @@ Spacebar can get jammed down
 4. Redeploy code and check in Phoenix tuner if the motor's stator current limit has been set back to a small value
 5. If the value has been reset, find the line of code that is applying that value as a constant and change it to 120 amps (or whatever current limit it should be)
 
-## Rio Logging
-### 1.0 View Rio connection and power logs
+## roboRIO
+### 1.0 Flashing roboRIO 2.0
+### 1.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
 
