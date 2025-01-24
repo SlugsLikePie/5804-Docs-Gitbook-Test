@@ -3,7 +3,7 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Hardware Info](#hardware-info)
-    2. [Common Cables](#common-cables)
+   1. [Common Cables](#common-cables)
         1. [1.0 USB](#10-usb-universal-serial-bus)
         2. [1.1 USB Type-C](#11-usb-type-c)
 3. [Laptop Issues](#laptop-issues)
