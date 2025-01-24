@@ -3,7 +3,9 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Hardware Info](#hardware-info)
-    1. [USB](#usb-universal-serial-bus)
+    2. [Common Cables](#common-cables)
+        1. [1.0 USB](#10-usb-universal-serial-bus)
+        2. [1.1 USB Type-C](#11-usb-type-c)
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
     2. 
@@ -21,11 +23,11 @@ Documentation for troubleshooting issues with FRC robots
     1. [1.0 Camera Setup](#10-camera-setup)
 
 ## Hardware Info
-### What cable is this?
-#### [USB](https://en.wikipedia.org/wiki/USB_hardware) (Universal Serial Bus)
+### Common Cables
+#### 1.0 [USB](https://en.wikipedia.org/wiki/USB_hardware) (Universal Serial Bus)
 <p><a href="https://commons.wikimedia.org/wiki/File:USB_2.0_and_3.0_connectors.svg#/media/File:USB_2.0_and_3.0_connectors.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/USB_2.0_and_3.0_connectors.svg" alt="USB 2.0 and 3.0 connectors.svg" height="476" width="640"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Milos.bmx&amp;action=edit&amp;redlink=1" class="new" title="User:Milos.bmx (page does not exist)">Milos.bmx</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30414864">Link</a></p>
 
-#### USB Type-C
+#### 1.1 USB Type-C
 <p><a href="https://commons.wikimedia.org/wiki/File:USB_Type-C_icon.svg#/media/File:USB_Type-C_icon.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/USB_Type-C_icon.svg" alt="USB Type-C icon.svg" height="187" width="512"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Niridya" title="User:Niridya">Niridya</a> - Own work based on: <a href="//commons.wikimedia.org/wiki/File:USB_Type-C.svg" title="File:USB Type-C.svg">USB Type-C.svg</a>&nbsp;by <a href="//commons.wikimedia.org/wiki/User:Pietz" title="User:Pietz">Pietz</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=74081486">Link</a></p>
 
 ## Laptop Issues
