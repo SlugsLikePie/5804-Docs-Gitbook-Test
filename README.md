@@ -3,7 +3,7 @@ Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
 1. [Hardware Info](#hardware-info)
-    1. [USB](#usb)
+    1. [USB](#usb-universal-serial-bus)
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
     2. 
