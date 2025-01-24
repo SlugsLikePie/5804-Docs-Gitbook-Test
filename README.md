@@ -21,10 +21,22 @@ Documentation for troubleshooting issues with FRC robots
 ## Hardware Info
 ### 1.0 Common Cables
 <details>
-   <summary>USB</summary>
+   <summary><b>USB</b></summary>
    <p><a href="https://commons.wikimedia.org/wiki/File:USB_2.0_and_3.0_connectors.svg#/media/File:USB_2.0_and_3.0_connectors.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/USB_2.0_and_3.0_connectors.svg" alt="USB 2.0 and 3.0 connectors.svg" height="476" width="640"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Milos.bmx&amp;action=edit&amp;redlink=1" class="new" title="User:Milos.bmx (page does not exist)">Milos.bmx</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30414864">Link</a></p>
    <p><a href="https://commons.wikimedia.org/wiki/File:USB_Type-C_icon.svg#/media/File:USB_Type-C_icon.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/USB_Type-C_icon.svg" alt="USB Type-C icon.svg" height="187" width="512"></a><br>By <a    href="//commons.wikimedia.org/wiki/User:Niridya" title="User:Niridya">Niridya</a> - Own work based on: <a href="//commons.wikimedia.org/wiki/File:USB_Type-C.svg" title="File:USB Type-C.svg">USB Type-C.svg</a>&nbsp;by <a href="//commons.wikimedia.org/wiki/User:Pietz" title="User:Pietz">Pietz</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=74081486">Link</a></p>
 </details>
+<details> 
+   <summary><b>DisplayPort</b></summary>
+   <h5>DisplayPort</h5>
+   <p><a href="https://commons.wikimedia.org/wiki/File:DisplayPort_Connector.svg#/media/File:DisplayPort_Connector.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg" alt="DisplayPort Connector.svg" height="180" width="609"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Abisys" title="User:Abisys">Abisys</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=4415244">Link</a></p>
+   <h5>Mini DisplayPort</h5>
+   <p><a href="https://commons.wikimedia.org/wiki/File:Mini_DisplayPort_(connector).PNG#/media/File:Mini_DisplayPort_(connector).PNG"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Mini_DisplayPort_%28connector%29.PNG" alt="Mini DisplayPort (connector).PNG" height="480" width="589"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Tosaka&amp;action=edit&amp;redlink=1" class="new" title="User:Tosaka (page does not exist)">Tosaka</a>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5989283">Link</a></p>
+</details>
+<details>
+   <summary><b>HDMI</b></summary>
+   <p><a href="https://commons.wikimedia.org/wiki/File:HDMI_Connector_Types.png#/media/File:HDMI_Connector_Types.png"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/HDMI_Connector_Types.png" alt="HDMI Connector Types.png" height="272" width="640"></a><br>By <a href="//commons.wikimedia.org/wiki/User:C0nanPayne" title="User:C0nanPayne">C0nanPayne</a> - Based on File:HDMI Connector.jpg, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=58368257">Link</a></p>
+</details>
+
 
 ## Laptop Issues
 ### 1.0 Randomly E-Stopping
