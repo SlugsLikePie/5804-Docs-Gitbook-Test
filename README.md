@@ -70,10 +70,11 @@ Spacebar can get jammed down
 5. If the value has been reset, find the line of code that is applying that value as a constant and change it to 120 amps (or whatever current limit it should be)
 
 ## roboRIO
-### 1.0 Flashing roboRIO 2.0
+### 1.0 Flashing [roboRIO 2.0](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html)
 1. Find either a USB-A to MicroSD adapter or a SD to MicroSD adapter
-2. Take the MicroSD Card from the [roboRIO](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html)
-3. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) for more thourough documentation
+2. Take the MicroSD Card from the roboRIO
+3. 
+4. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) if more thourough documentation is needed
 ### 1.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
@@ -83,11 +84,12 @@ Spacebar can get jammed down
 1. Call swerve.resetModuleToAbsolute() (or equivalent method) twice at the top of RobotContainer
 
 ## Vision
-### 1.0 Camera Setup
+### 1.0 Coprocessor networking configuration for [PhotonVision](https://docs.photonvision.org/en/latest/) 
 Note: Step order is very important
 1. Set the static IP in the networking tab of Photonvision
 2. Set the static IP for the RoboRIO
 3. Power cycle the robot
 4. Access the camera configuration settings at the new static IP
+5. Read the [PhotonVision docs](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking) if more thourough documentation is needed
 
 
