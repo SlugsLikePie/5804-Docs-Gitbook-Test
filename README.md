@@ -52,8 +52,9 @@ Spacebar can get jammed down
 
 ## roboRIO
 ### 1.0 Flashing roboRIO 2.0
-1. [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html)
-2. 
+1. Find either a [USB-A](![image](https://github.com/user-attachments/assets/d4d8c3e7-d871-45ac-9be2-5a5f5a68072b)
+
+1. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) for more thourough documentation
 ### 1.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
