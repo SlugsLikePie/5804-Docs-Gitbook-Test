@@ -18,12 +18,15 @@ Documentation for troubleshooting issues with FRC robots
 7. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 8. [Vision](#vision)
-    1. [1.0 Camera Setup Issues](#10-camera-setup-issues)
+    1. [1.0 Camera Setup Issues](#10-camera-setup)
 
 ## Hardware Info
 ### What cable is this?
 #### [USB](https://en.wikipedia.org/wiki/USB_hardware) (Universal Serial Bus)
 <p><a href="https://commons.wikimedia.org/wiki/File:USB_2.0_and_3.0_connectors.svg#/media/File:USB_2.0_and_3.0_connectors.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/USB_2.0_and_3.0_connectors.svg" alt="USB 2.0 and 3.0 connectors.svg" height="476" width="640"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Milos.bmx&amp;action=edit&amp;redlink=1" class="new" title="User:Milos.bmx (page does not exist)">Milos.bmx</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30414864">Link</a></p>
+
+#### USB Type-C
+<p><a href="https://commons.wikimedia.org/wiki/File:USB_Type-C_icon.svg#/media/File:USB_Type-C_icon.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/USB_Type-C_icon.svg" alt="USB Type-C icon.svg" height="187" width="512"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Niridya" title="User:Niridya">Niridya</a> - Own work based on: <a href="//commons.wikimedia.org/wiki/File:USB_Type-C.svg" title="File:USB Type-C.svg">USB Type-C.svg</a>&nbsp;by <a href="//commons.wikimedia.org/wiki/User:Pietz" title="User:Pietz">Pietz</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=74081486">Link</a></p>
 
 ## Laptop Issues
 ### 1.0 Randomly E-Stopping
@@ -59,7 +62,7 @@ Spacebar can get jammed down
 ## roboRIO
 ### 1.0 Flashing roboRIO 2.0
 1. Find either a USB-A to MicroSD adapter or a SD to MicroSD adapter
-2. 
+2. Take the MicroSD Card from the [roboRIO](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html)
 3. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) for more thourough documentation
 ### 1.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
@@ -70,9 +73,10 @@ Spacebar can get jammed down
 1. Call swerve.resetModuleToAbsolute() (or equivalent method) twice at the top of RobotContainer
 
 ## Vision
-### 1.0 Camera setup
+### 1.0 Camera Setup
+Note: Step order is very important
 1. Set the static IP in the networking tab of Photonvision
-2. THEN Set the static IP for the RoboRIO
+2. Set the static IP for the RoboRIO
 3. Power cycle the robot
 4. Access the camera configuration settings at the new static IP
 
