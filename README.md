@@ -10,8 +10,8 @@ Documentation for troubleshooting issues with FRC robots
 4. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
     2. 
-5. [CAN & Canivore Issues](#can-and-canivore-issues)
-    1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
+5. [CAN & CANivore Issues](#can-and-canivore-issues)
+    1. [1.0 Don't know how to update CANivore firmware](#10-dont-know-how-to-update-canivore-firmware)
 6. [Rio Logging](#roborio)
     1. [1.0 Flashing roboRIO 2.0](#10-flashing-roborio-20)
     2. [1.0 Want to view Rio connection and power logs](#10-view-roborio-connection-and-power-logs)
@@ -45,11 +45,11 @@ Spacebar can get jammed down
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-## CAN and Canivore Issues
-### 1.0 Don't know how to update Canivore firmware
+## CAN and CANivore Issues
+### 1.0 Don't know how to update CANivore firmware
 1. Click the menu button in the top left of Phoenix tuner
-2. Click into the Canivores tab
-3. Update the Canivore
+2. Click into the CANivores tab
+3. Update the CANivore
 
 ## Motor Issues
 ### 1.0 Motors will not spin
