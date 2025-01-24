@@ -12,13 +12,13 @@ Documentation for troubleshooting issues with FRC robots
     2. 
 5. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
-6. [Rio Logging](#rio-logging)
+6. [Rio Logging](#roborio)
     1. [1.0 Flashing roboRIO 2.0](#10-flashing-roborio-20)
     2. [1.0 Want to view Rio connection and power logs](#10-view-roborio-connection-and-power-logs)
 7. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 8. [Vision](#vision)
-    1. [1.0 Camera Setup Issues](#10-camera-setup)
+    1. [1.0 Camera Setup](#10-camera-setup)
 
 ## Hardware Info
 ### What cable is this?
