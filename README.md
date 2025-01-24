@@ -2,22 +2,28 @@
 Documentation for troubleshooting issues with FRC robots
 
 ## Table of Contents
-1. [Laptop Issues](#laptop-issues)
+1. [Hardware Info](#hardware-info)
+    1. [USB](#usb)
+3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
     2. 
-2. [Pathplanner Issues](#pathplanner-issues)
+4. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner Cannot Find Settings File](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
     2. 
-3. [CAN & Canivore Issues](#can-and-canivore-issues)
+5. [CAN & Canivore Issues](#can-and-canivore-issues)
     1. [1.0 Don't know how to update Canivore firmware](#10-dont-know-how-to-update-canivore-firmware)
-4. [Rio Logging](#rio-logging)
+6. [Rio Logging](#rio-logging)
     1. [1.0 Flashing roboRIO 2.0](#10-flashing-roborio-20)
     2. [1.0 Want to view Rio connection and power logs](#10-view-roborio-connection-and-power-logs)
-5. [Swerve Drive](#swerve-drive)
+7. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
-6. [Vision](#vision)
+8. [Vision](#vision)
     1. [1.0 Camera Setup Issues](#10-camera-setup-issues)
 
+## Hardware Info
+### What cable is this?
+#### [USB](https://en.wikipedia.org/wiki/USB_hardware) (Universal Serial Bus)
+<p><a href="https://commons.wikimedia.org/wiki/File:USB_2.0_and_3.0_connectors.svg#/media/File:USB_2.0_and_3.0_connectors.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/USB_2.0_and_3.0_connectors.svg" alt="USB 2.0 and 3.0 connectors.svg" height="476" width="640"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Milos.bmx&amp;action=edit&amp;redlink=1" class="new" title="User:Milos.bmx (page does not exist)">Milos.bmx</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30414864">Link</a></p>
 
 ## Laptop Issues
 ### 1.0 Randomly E-Stopping
@@ -52,9 +58,9 @@ Spacebar can get jammed down
 
 ## roboRIO
 ### 1.0 Flashing roboRIO 2.0
-1. Find either a [USB-A](![image](https://github.com/user-attachments/assets/d4d8c3e7-d871-45ac-9be2-5a5f5a68072b)
-
-1. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) for more thourough documentation
+1. Find either a USB-A to MicroSD adapter or a SD to MicroSD adapter
+2. 
+3. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) for more thourough documentation
 ### 1.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
