@@ -12,11 +12,16 @@ Documentation for troubleshooting issues with FRC robots
     1. [1.0 Update CANivore firmware](#10-update-canivore-firmware)
 6. [Rio Logging](#roborio)
     1. [1.0 Flashing roboRIO 2.0 firmware](#10-flashing-roborio-20-firmware)
-    2. [1.0 View RIO connection and power logs](#10-view-roborio-connection-and-power-logs)
+    2. [2.0 View RIO connection and power logs](#20-view-roborio-connection-and-power-logs)
+    3. [3.0 Delete roboRIO logs to create disk space](#30-delete-roborio-logs-to-create-disk-space)
 7. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 8. [Vision](#vision)
     1. [1.0 Coprocessor networking configuration](#10-coprocessor-networking-configuration-for-photonvision)
+    2. [2.0 PhotonVision camera calibration](#20-photonvision-camera-calibration)
+    3. [3.0 Exporting pipeline settings](#30-exporting-pipeline-settings)
+    4. [4.0 PhotonVision debugging](#40-photonvision-debugging)
+
 
 ## Hardware Info
 ### 1.0 Common Cables
@@ -75,9 +80,13 @@ Spacebar can get jammed down
 2. Take the MicroSD Card from the roboRIO
 3. 
 4. Read [FRC Official docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html) if more thourough documentation is needed
-### 1.0 View roboRIO connection and power logs
+### 2.0 View roboRIO connection and power logs
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
+### 3.0 Delete roboRIO logs to create disk space
+1. Navigate to the log extractor tool in the tools tab of Phoenix Tuner X
+2. Press connect while connected to the robot
+3. Select any logs that need to be downloaded or deleted
 
 ## Swerve Drive 
 ### 1.0 [Base Tallon FX Swerve](https://github.com/dirtbikerxz/BaseTalonFXSwerve) randomly not setting zeroes correctly on robot startup
@@ -91,6 +100,12 @@ Note: Step order is very important
 3. Power cycle the robot
 4. Access the camera configuration settings at 10.TE.AM.11:5800 (for team #5804: 10.58.04.11:5800)
 5. Read the [PhotonVision docs](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking) if more thourough documentation is needed
-
-
-
+### 2.0 PhotonVision camera calibration
+1. The maximum distance that an AprilTag can be detected at improves with higher resolution; however, increasing resolution has the negative side effect of lowering the framerate
+2. When calibrating the camera, the chessboard/charuco must be held close to the camera in order for it to be detected at lower resolutions
+### 3.0 Exporting pipeline settings
+1. There is currently not possible to export only pipeline settings
+2. Using the export settings button in the settings tab includes the ip address, and the cameras will not work share ip addresses
+### 4.0 PhotonVision debugging
+1. If the ip addresses for the cameras are inadvertantly overwritten, perform a software factory reset in the settings tab of the PhotobnVision software. Afterwards, the static ip must be reconfigured
+2. Cameras must all be on the same version of the PhotonVision
