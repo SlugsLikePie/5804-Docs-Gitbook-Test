@@ -86,10 +86,11 @@ Spacebar can get jammed down
 ## Vision
 ### 1.0 Coprocessor networking configuration for [PhotonVision](https://docs.photonvision.org/en/latest/) 
 Note: Step order is very important
-1. Set the static IP in the networking tab of Photonvision
-2. Set the static IP for the RoboRIO
+1. Set the static IP in the networking tab of Photonvision to 10.TE.AM.11 (for team #5804: 10.58.04.11)
+2. Set the static IP for the RoboRIO to the default static IP
 3. Power cycle the robot
-4. Access the camera configuration settings at the new static IP
+4. Access the camera configuration settings at 10.TE.AM.11:5800 (for team #5804: 10.58.04.11:5800)
 5. Read the [PhotonVision docs](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking) if more thourough documentation is needed
+
 
 
