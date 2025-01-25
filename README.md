@@ -44,25 +44,25 @@ Spacebar can get jammed down
 1. Press spacebar repeatedly to unstick it
 2. Redeploy code/power cycle to restart the robot
 
-### 2.0 Phoenix Tuner X cannot communicate with devices
+### 2.0 [Phoenix Tuner X](https://v6.docs.ctr-electronics.com/en/2024/docs/tuner/index.html) cannot communicate with devices
 1. Click the menu button in the top left of Phoenix tuner
 2. Select driver station
 3. If devices are still not detected, return to the devices section and run temporary diagnostics
 
-## Pathplanner Issues
+## [Pathplanner](https://pathplanner.dev/home.html) Issues
 ### 1.0 Bootlooping and Pathplanner cannot find settings file
 1. Open the Pathplanner app
 2. Change a robot config in the Pathplanner settings
 3. Redeploy code
 
-## CAN and CANIvore Issues
+## CAN and [CANIvore](https://v6.docs.ctr-electronics.com/en/2024/docs/canivore/canivore-intro.html#canivore-intro) Issues
 ### 1.0 Update CANivore firmware
 1. Click the menu button in the top left of Phoenix tuner
 2. Click into the CANivores tab
 3. Update the CANivore
 
 ## Motor Issues
-### 1.0 Motors will not spin
+### 1.0 [CTR Talon FX Motors](https://v6.docs.ctr-electronics.com/en/2024/docs/hardware-reference/talonfx/index.html) will not spin
 1. Check stator current limit in Phoenix tuner
 2. Change it to 120 amps if it is really small (~0.1)
 3. Test to see if the motor spins now using Phoenix tuner
@@ -79,8 +79,8 @@ Spacebar can get jammed down
 1. Click the gear icon next to the team number in FRC Driver Station
 2. Click view log file
 
-## Swerve Drive
-### 1.0 Swerve randomly not setting zeroes correctly on robot startup
+## Swerve Drive 
+### 1.0 [Base Tallon FX Swerve](https://github.com/dirtbikerxz/BaseTalonFXSwerve) randomly not setting zeroes correctly on robot startup
 1. Call swerve.resetModuleToAbsolute() (or equivalent method) twice at the top of RobotContainer
 
 ## Vision
