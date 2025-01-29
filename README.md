@@ -6,17 +6,19 @@ Documentation for troubleshooting issues with FRC robots
    1. [Common Cables](#10-common-cables)
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
-4. [Pathplanner Issues](#pathplanner-issues)
+    2. [2.0 Phoenix Tuner X](#20-phoenix-tuner-x)
+    3. [3.0 WPILib Updates](#30-wpilib-updates)
+5. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner cannot find settings sile](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
-5. [CAN & CANivore Issues](#can-and-canivore-issues)
+6. [CAN & CANivore Issues](#can-and-canivore-issues)
     1. [1.0 Update CANivore firmware](#10-update-canivore-firmware)
-6. [Rio Logging](#roborio)
+7. [Rio Logging](#roborio)
     1. [1.0 Flashing roboRIO 2.0 firmware](#10-flashing-roborio-20-firmware)
     2. [2.0 View RIO connection and power logs](#20-view-roborio-connection-and-power-logs)
     3. [3.0 Delete roboRIO logs to create disk space](#30-delete-roborio-logs-to-create-disk-space)
-7. [Swerve Drive](#swerve-drive)
+8. [Swerve Drive](#swerve-drive)
     1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
-8. [Vision](#vision)
+9. [Vision](#vision)
     1. [1.0 Coprocessor networking configuration](#10-coprocessor-networking-configuration-for-photonvision)
     2. [2.0 PhotonVision camera calibration](#20-photonvision-camera-calibration)
     3. [3.0 Exporting pipeline settings](#30-exporting-pipeline-settings)
@@ -53,6 +55,10 @@ Spacebar can get jammed down
 1. Click the menu button in the top left of Phoenix tuner
 2. Select driver station
 3. If devices are still not detected, return to the devices section and run temporary diagnostics
+
+### 3.0 WPILib Updates
+1. In WPILib, press ctrl + shift + p.
+2. Search "check for WPILib updates (online)." (Make sure you are on internet.)
 
 ## [Pathplanner](https://pathplanner.dev/home.html) Issues
 ### 1.0 Bootlooping and Pathplanner cannot find settings file
