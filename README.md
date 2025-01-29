@@ -6,7 +6,7 @@ Documentation for troubleshooting issues with FRC robots
    1. [Common Cables](#10-common-cables)
 3. [Laptop Issues](#laptop-issues)
     1. [1.0 Randomly E-Stopping](#10-randomly-e-stopping)
-    2. [2.0 Phoenix Tuner X](#20-phoenix-tuner-x)
+    2. [2.0 Phoenix Tuner X cannot communicate with devices](#20-phoenix-tuner-x-cannot-communicate-with-devices)
     3. [3.0 WPILib Updates](#30-wpilib-updates)
 5. [Pathplanner Issues](#pathplanner-issues)
     1. [1.0 Bootlooping and Pathplanner cannot find settings sile](#10-bootlooping-and-pathplanner-cannot-find-settings-file)
@@ -107,6 +107,7 @@ Note: Step order is very important
 4. Access the camera configuration settings at 10.TE.AM.11:5800 (for team #5804: 10.58.04.11:5800)
 5. Read the [PhotonVision docs](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking) if more thourough documentation is needed
 ### 2.0 PhotonVision camera calibration
+Note: Remember to change the camera lense focus by twisting the physical lense of the ArduCam. Do not use auto-exposure.
 1. The maximum distance that an AprilTag can be detected at improves with higher resolution; however, increasing resolution has the negative side effect of lowering the framerate
 2. When calibrating the camera, the chessboard/charuco must be held close to the camera in order for it to be detected at lower resolutions
 ### 3.0 Exporting pipeline settings
