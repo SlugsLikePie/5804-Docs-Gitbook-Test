@@ -95,7 +95,7 @@ Spacebar can get jammed down
 3. Select any logs that need to be downloaded or deleted
 
 ## Swerve Drive 
-### 1.0 [Base Tallon FX Swerve](https://github.com/dirtbikerxz/BaseTalonFXSwerve) randomly not setting zeroes correctly on robot startup
+### 1.0 [Base Talon FX Swerve](https://github.com/dirtbikerxz/BaseTalonFXSwerve) randomly not setting zeroes correctly on robot startup
 1. Call swerve.resetModuleToAbsolute() (or equivalent method) twice at the top of RobotContainer
 
 ## Vision
