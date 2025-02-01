@@ -17,7 +17,7 @@ Documentation for troubleshooting issues with FRC robots
     2. [2.0 View RIO connection and power logs](#20-view-roborio-connection-and-power-logs)
     3. [3.0 Delete roboRIO logs to create disk space](#30-delete-roborio-logs-to-create-disk-space)
 8. [Swerve Drive](#swerve-drive)
-    1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
+    1. [1.0 Swerve randomly not setting zeroes correctly on robot startup](#10-base-talon-fx-swerve-randomly-not-setting-zeroes-correctly-on-robot-startup)
 9. [Vision](#vision)
     1. [1.0 Coprocessor networking configuration](#10-coprocessor-networking-configuration-for-photonvision)
     2. [2.0 PhotonVision camera calibration](#20-photonvision-camera-calibration)
